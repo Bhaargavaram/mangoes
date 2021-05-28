@@ -16,7 +16,7 @@ class launcher{
 		this.launcher=Constraint.create(options)
 		World.add(world,this.launcher)
 	}
-	attach()
+	attach(body)
 	{
 
 		this.launcher.bodyA=body
